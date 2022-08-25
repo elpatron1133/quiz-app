@@ -3,13 +3,13 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://www.aguilar.digital/quiz-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

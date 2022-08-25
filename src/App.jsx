@@ -42,7 +42,7 @@ function App() {
         <div className="juego-terminado">
           <span>Obtuviste  {puntuacion}  de {preguntas.length}
           </span>
-          <button onClick={() => (window.location.href = "/")}>
+          <button onClick={() => (window.location.href = "/quiz-app")}>
             Volver a jugar
           </button>
           <button onClick={() => {
@@ -77,7 +77,7 @@ function App() {
           <button
             onClick={() => {
               if (preguntaActual === preguntas.length - 1) {
-                window.location.href = "/";
+                window.location.href = "/quiz-app";
               } else {
                 setPreguntaActual(preguntaActual + 1)
               }
